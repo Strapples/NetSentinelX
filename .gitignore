@@ -60,3 +60,13 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+
+# Added by cargo
+
+/target
+
+# Dont leak your own packets!
+
+packets.db
+packets.db-journal
